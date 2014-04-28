@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Reverse String View Controller-->
         <scene sceneID="hbB-mz-Cp7">
             <objects>
-                <viewController id="aJL-jv-bJG" sceneMemberID="viewController">
+                <viewController id="aJL-jv-bJG" customClass="JDBReverseStringViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8k4-Sj-rbO"/>
                         <viewControllerLayoutGuide type="bottom" id="QjT-Mh-0Td"/>
@@ -28,6 +28,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="aJL-jv-bJG" id="G7Y-9X-BwF"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJQ-Oz-h4w">
                                 <rect key="frame" x="20" y="128" width="280" height="30"/>

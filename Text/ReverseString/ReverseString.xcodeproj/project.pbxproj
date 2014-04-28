@@ -20,6 +20,7 @@
 		0C77008E190F04B0003EC41F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C77008C190F04B0003EC41F /* InfoPlist.strings */; };
 		0C770090190F04B0003EC41F /* ReverseStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77008F190F04B0003EC41F /* ReverseStringTests.m */; };
 		0C77009A190F0BDB003EC41F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C770099190F0BDB003EC41F /* Storyboard.storyboard */; };
+		0C77009D190F1AFD003EC41F /* JDBReverseStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77009C190F1AFD003EC41F /* JDBReverseStringViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		0C77008D190F04B0003EC41F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C77008F190F04B0003EC41F /* ReverseStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseStringTests.m; sourceTree = "<group>"; };
 		0C770099190F0BDB003EC41F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0C77009B190F1AFD003EC41F /* JDBReverseStringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBReverseStringViewController.h; sourceTree = "<group>"; };
+		0C77009C190F1AFD003EC41F /* JDBReverseStringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBReverseStringViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				0C770079190F04B0003EC41F /* JDBAppDelegate.h */,
 				0C77007A190F04B0003EC41F /* JDBAppDelegate.m */,
 				0C770099190F0BDB003EC41F /* Storyboard.storyboard */,
+				0C77009B190F1AFD003EC41F /* JDBReverseStringViewController.h */,
+				0C77009C190F1AFD003EC41F /* JDBReverseStringViewController.m */,
 				0C77007C190F04B0003EC41F /* Images.xcassets */,
 				0C770071190F04B0003EC41F /* Supporting Files */,
 			);
@@ -244,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C77009D190F1AFD003EC41F /* JDBReverseStringViewController.m in Sources */,
 				0C770077190F04B0003EC41F /* main.m in Sources */,
 				0C77007B190F04B0003EC41F /* JDBAppDelegate.m in Sources */,
 			);
