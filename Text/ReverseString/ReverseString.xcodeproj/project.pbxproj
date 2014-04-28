@@ -19,6 +19,7 @@
 		0C770086190F04B0003EC41F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C77006E190F04B0003EC41F /* UIKit.framework */; };
 		0C77008E190F04B0003EC41F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C77008C190F04B0003EC41F /* InfoPlist.strings */; };
 		0C770090190F04B0003EC41F /* ReverseStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77008F190F04B0003EC41F /* ReverseStringTests.m */; };
+		0C77009A190F0BDB003EC41F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C770099190F0BDB003EC41F /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0C77008B190F04B0003EC41F /* ReverseStringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReverseStringTests-Info.plist"; sourceTree = "<group>"; };
 		0C77008D190F04B0003EC41F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C77008F190F04B0003EC41F /* ReverseStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseStringTests.m; sourceTree = "<group>"; };
+		0C770099190F0BDB003EC41F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				0C770079190F04B0003EC41F /* JDBAppDelegate.h */,
 				0C77007A190F04B0003EC41F /* JDBAppDelegate.m */,
+				0C770099190F0BDB003EC41F /* Storyboard.storyboard */,
 				0C77007C190F04B0003EC41F /* Images.xcassets */,
 				0C770071190F04B0003EC41F /* Supporting Files */,
 			);
@@ -222,6 +225,7 @@
 			files = (
 				0C770075190F04B0003EC41F /* InfoPlist.strings in Resources */,
 				0C77007D190F04B0003EC41F /* Images.xcassets in Resources */,
+				0C77009A190F0BDB003EC41F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
