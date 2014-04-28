@@ -16,33 +16,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter a string to reverse:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jk9-RD-bsx">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a string to reverse:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jk9-RD-bsx">
                                 <rect key="frame" x="20" y="61" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tq7-d5-7GO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tq7-d5-7GO">
                                 <rect key="frame" x="20" y="90" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJQ-Oz-h4w">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJQ-Oz-h4w">
                                 <rect key="frame" x="20" y="128" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Reverse">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reversed String:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2S-0T-cT4">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reversed String:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2S-0T-cT4">
                                 <rect key="frame" x="20" y="166" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvv-3e-ypO">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvv-3e-ypO">
                                 <rect key="frame" x="20" y="195" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -50,6 +50,23 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Tq7-d5-7GO" secondAttribute="trailing" constant="20" id="3K8-lA-2hA"/>
+                            <constraint firstItem="Jk9-RD-bsx" firstAttribute="leading" secondItem="aoJ-Y8-Noi" secondAttribute="leading" constant="20" id="4yk-Js-SPP"/>
+                            <constraint firstItem="Tq7-d5-7GO" firstAttribute="top" secondItem="Jk9-RD-bsx" secondAttribute="bottom" constant="8" id="7X6-CE-1je"/>
+                            <constraint firstItem="Nvv-3e-ypO" firstAttribute="leading" secondItem="aoJ-Y8-Noi" secondAttribute="leading" constant="20" id="Fzy-bp-uGk"/>
+                            <constraint firstAttribute="trailing" secondItem="pJQ-Oz-h4w" secondAttribute="trailing" constant="20" id="MNp-HM-YUB"/>
+                            <constraint firstAttribute="trailing" secondItem="B2S-0T-cT4" secondAttribute="trailing" constant="20" id="PVy-Iu-3xK"/>
+                            <constraint firstItem="Tq7-d5-7GO" firstAttribute="leading" secondItem="aoJ-Y8-Noi" secondAttribute="leading" constant="20" id="QLj-PN-Ugy"/>
+                            <constraint firstItem="B2S-0T-cT4" firstAttribute="top" secondItem="pJQ-Oz-h4w" secondAttribute="bottom" constant="8" id="Qa3-MJ-IFb"/>
+                            <constraint firstItem="Nvv-3e-ypO" firstAttribute="top" secondItem="B2S-0T-cT4" secondAttribute="bottom" constant="8" id="SUp-Qr-JfO"/>
+                            <constraint firstItem="pJQ-Oz-h4w" firstAttribute="top" secondItem="Tq7-d5-7GO" secondAttribute="bottom" constant="8" id="Zs1-8e-XDj"/>
+                            <constraint firstItem="pJQ-Oz-h4w" firstAttribute="leading" secondItem="aoJ-Y8-Noi" secondAttribute="leading" constant="20" id="aiS-8L-NCs"/>
+                            <constraint firstAttribute="trailing" secondItem="Nvv-3e-ypO" secondAttribute="trailing" constant="20" id="edL-yb-AQC"/>
+                            <constraint firstAttribute="trailing" secondItem="Jk9-RD-bsx" secondAttribute="trailing" constant="20" id="mhT-ZG-DqZ"/>
+                            <constraint firstItem="Jk9-RD-bsx" firstAttribute="top" secondItem="8k4-Sj-rbO" secondAttribute="bottom" constant="41" id="msX-Cy-eUQ"/>
+                            <constraint firstItem="B2S-0T-cT4" firstAttribute="leading" secondItem="aoJ-Y8-Noi" secondAttribute="leading" constant="20" id="ncy-5l-zTe"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VHC-fV-vHH" userLabel="First Responder" sceneMemberID="firstResponder"/>
