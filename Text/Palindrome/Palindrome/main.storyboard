@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Palindrome View Controller-->
         <scene sceneID="CQi-OK-mxl">
             <objects>
-                <viewController id="bbv-gq-y0p" sceneMemberID="viewController">
+                <viewController id="bbv-gq-y0p" customClass="JDBPalindromeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nFo-db-QqI"/>
                         <viewControllerLayoutGuide type="bottom" id="vG8-m4-itZ"/>

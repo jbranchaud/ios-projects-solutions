@@ -20,6 +20,7 @@
 		0C12DED91910477F00631DC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C12DED71910477F00631DC5 /* InfoPlist.strings */; };
 		0C12DEDB1910477F00631DC5 /* PalindromeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12DEDA1910477F00631DC5 /* PalindromeTests.m */; };
 		0C12DEE51910480000631DC5 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C12DEE41910480000631DC5 /* main.storyboard */; };
+		0C12DEE819104CD300631DC5 /* JDBPalindromeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12DEE719104CD300631DC5 /* JDBPalindromeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		0C12DED81910477F00631DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C12DEDA1910477F00631DC5 /* PalindromeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromeTests.m; sourceTree = "<group>"; };
 		0C12DEE41910480000631DC5 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		0C12DEE619104CD300631DC5 /* JDBPalindromeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBPalindromeViewController.h; sourceTree = "<group>"; };
+		0C12DEE719104CD300631DC5 /* JDBPalindromeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBPalindromeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				0C12DEC71910477E00631DC5 /* Images.xcassets */,
 				0C12DEBC1910477E00631DC5 /* Supporting Files */,
 				0C12DEE41910480000631DC5 /* main.storyboard */,
+				0C12DEE619104CD300631DC5 /* JDBPalindromeViewController.h */,
+				0C12DEE719104CD300631DC5 /* JDBPalindromeViewController.m */,
 			);
 			path = Palindrome;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 			files = (
 				0C12DEC21910477E00631DC5 /* main.m in Sources */,
 				0C12DEC61910477E00631DC5 /* JDBAppDelegate.m in Sources */,
+				0C12DEE819104CD300631DC5 /* JDBPalindromeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
