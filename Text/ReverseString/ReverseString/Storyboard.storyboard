@@ -29,7 +29,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <outlet property="delegate" destination="aJL-jv-bJG" id="G7Y-9X-BwF"/>
+                                    <outlet property="delegate" destination="aJL-jv-bJG" id="dST-OD-Ld5"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJQ-Oz-h4w">
@@ -71,6 +71,12 @@
                             <constraint firstItem="B2S-0T-cT4" firstAttribute="leading" secondItem="aoJ-Y8-Noi" secondAttribute="leading" constant="20" id="ncy-5l-zTe"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="originalString" destination="Tq7-d5-7GO" id="c7U-tS-Z6d"/>
+                        <outlet property="reverseButton" destination="pJQ-Oz-h4w" id="xFw-DB-RFK"/>
+                        <outlet property="reversedStringLabel" destination="Nvv-3e-ypO" id="Lx3-ll-GLq"/>
+                        <outlet property="view" destination="aoJ-Y8-Noi" id="FSs-wH-Krm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VHC-fV-vHH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

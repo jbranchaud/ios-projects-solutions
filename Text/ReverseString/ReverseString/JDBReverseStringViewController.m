@@ -9,6 +9,9 @@
 #import "JDBReverseStringViewController.h"
 
 @interface JDBReverseStringViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *originalStringTextField;
+@property (weak, nonatomic) IBOutlet UIButton *reverseButton;
+@property (weak, nonatomic) IBOutlet UILabel *reversedStringLabel;
 
 @end
 
