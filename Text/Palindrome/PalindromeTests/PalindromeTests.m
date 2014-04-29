@@ -36,7 +36,7 @@
     JDBPalindromeViewController *pvc = [JDBPalindromeViewController alloc];
     XCTAssertTrue([pvc isPalindrome:string1], @"Should be a palindrome");
     XCTAssertFalse([pvc isPalindrome:string2], @"Should not be a palindrome");
-    //XCTAssertTrue([pvc isPalindrome:string3], @"Should be a palindrome");
+    XCTAssertTrue([pvc isPalindrome:string3], @"Should be a palindrome");
     XCTAssertTrue([pvc isPalindrome:string4], @"Should be a palindrome");
 }
 
