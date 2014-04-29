@@ -19,6 +19,7 @@
 		0C12DED11910477F00631DC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C12DEB91910477E00631DC5 /* UIKit.framework */; };
 		0C12DED91910477F00631DC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C12DED71910477F00631DC5 /* InfoPlist.strings */; };
 		0C12DEDB1910477F00631DC5 /* PalindromeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12DEDA1910477F00631DC5 /* PalindromeTests.m */; };
+		0C12DEE51910480000631DC5 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C12DEE41910480000631DC5 /* main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0C12DED61910477F00631DC5 /* PalindromeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PalindromeTests-Info.plist"; sourceTree = "<group>"; };
 		0C12DED81910477F00631DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C12DEDA1910477F00631DC5 /* PalindromeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromeTests.m; sourceTree = "<group>"; };
+		0C12DEE41910480000631DC5 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				0C12DEC51910477E00631DC5 /* JDBAppDelegate.m */,
 				0C12DEC71910477E00631DC5 /* Images.xcassets */,
 				0C12DEBC1910477E00631DC5 /* Supporting Files */,
+				0C12DEE41910480000631DC5 /* main.storyboard */,
 			);
 			path = Palindrome;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C12DEC01910477E00631DC5 /* InfoPlist.strings in Resources */,
+				0C12DEE51910480000631DC5 /* main.storyboard in Resources */,
 				0C12DEC81910477E00631DC5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
