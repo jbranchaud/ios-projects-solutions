@@ -10,4 +10,6 @@
 
 @interface JDBReverseStringViewController : UIViewController
 
+- (NSString *)reverseString:(NSString *)originalString;
+
 @end
