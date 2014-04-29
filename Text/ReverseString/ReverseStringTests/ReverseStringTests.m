@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "JDBReverseStringViewController.h"
 
 @interface ReverseStringTests : XCTestCase
 
@@ -26,9 +27,12 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testReverseString
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSString *originalString = @"race car";
+    NSString *reversedString = @"rac ecar";
+    JDBReverseStringViewController *rsvc = [JDBReverseStringViewController alloc];
+    XCTAssertEqualObjects(reversedString, [rsvc reverseString:originalString], @"Reversed string should match.");
 }
 
 @end
