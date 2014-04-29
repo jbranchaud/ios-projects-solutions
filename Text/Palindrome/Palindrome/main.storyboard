@@ -35,6 +35,9 @@
                                 <state key="normal" title="check palindrome">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="handleButtonClick:" destination="bbv-gq-y0p" eventType="touchUpInside" id="bla-AU-48W"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is the input text a palindrome?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgc-sl-hVe">
                                 <rect key="frame" x="20" y="185" width="280" height="21"/>
@@ -74,6 +77,11 @@
                             <constraint firstAttribute="trailing" secondItem="GhR-D9-bV5" secondAttribute="trailing" constant="20" id="zzf-dG-YZn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="checkPalindromeButton" destination="gPO-d1-V1u" id="P6K-4U-cLB"/>
+                        <outlet property="palindromeTextField" destination="Ctf-7y-WKf" id="PwL-43-hUx"/>
+                        <outlet property="validPalindromeLabel" destination="7gL-dh-FEz" id="Lvd-lU-0St"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fIC-Ru-cyu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

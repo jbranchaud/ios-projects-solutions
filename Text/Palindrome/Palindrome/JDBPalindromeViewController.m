@@ -10,6 +10,10 @@
 
 @interface JDBPalindromeViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *palindromeTextField;
+@property (weak, nonatomic) IBOutlet UIButton *checkPalindromeButton;
+@property (weak, nonatomic) IBOutlet UILabel *validPalindromeLabel;
+
 @end
 
 @implementation JDBPalindromeViewController
@@ -45,5 +49,8 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)handleButtonClick:(id)sender {
+}
 
 @end
