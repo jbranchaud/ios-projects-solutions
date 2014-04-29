@@ -46,6 +46,10 @@
  */
 - (BOOL)isPalindrome:(NSString *)string {
     int stringLength = string.length;
+    // if it is an empty string, it is vacuously a palindrome, return true
+    if (stringLength == 0) {
+        return true;
+    }
     BOOL result = true;
     for (int i = 0; i < stringLength / 2 + 1; i++) {
         unichar leftChar = [string characterAtIndex:i];
