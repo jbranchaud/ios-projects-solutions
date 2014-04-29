@@ -39,17 +39,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
+/* 
+ * isPalindrome is a helper method that will check whether the given string is
+ * a palindrome or not. It returns a boolean of true if the given string is a 
+ * palindrome, false otherwise.
+ */
 - (BOOL)isPalindrome:(NSString *)string {
     int stringLength = string.length;
     BOOL result = true;
