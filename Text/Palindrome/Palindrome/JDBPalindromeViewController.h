@@ -10,4 +10,6 @@
 
 @interface JDBPalindromeViewController : UIViewController
 
+- (BOOL)isPalindrome:(NSString *)string;
+
 @end

@@ -50,6 +50,20 @@
 }
 */
 
+- (BOOL)isPalindrome:(NSString *)string {
+    int stringLength = string.length;
+    BOOL result = true;
+    for (int i = 0; i < stringLength / 2 + 1; i++) {
+        unichar leftChar = [string characterAtIndex:i];
+        unichar rightChar = [string characterAtIndex:stringLength - i - 1];
+        if (leftChar != rightChar) {
+            result = false;
+            break;
+        }
+    }
+    return result;
+}
+
 - (IBAction)handleButtonClick:(id)sender {
 }
 

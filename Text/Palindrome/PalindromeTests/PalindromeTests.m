@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "JDBPalindromeViewController.h"
 
 @interface PalindromeTests : XCTestCase
 
@@ -26,9 +27,17 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testIsPalindrome
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSString *string1 = @"racecar";
+    NSString *string2 = @"hello";
+    NSString *string3 = @"";
+    NSString *string4 = @"Z";
+    JDBPalindromeViewController *pvc = [JDBPalindromeViewController alloc];
+    XCTAssertTrue([pvc isPalindrome:string1], @"Should be a palindrome");
+    XCTAssertFalse([pvc isPalindrome:string2], @"Should not be a palindrome");
+    //XCTAssertTrue([pvc isPalindrome:string3], @"Should be a palindrome");
+    XCTAssertTrue([pvc isPalindrome:string4], @"Should be a palindrome");
 }
 
 @end
