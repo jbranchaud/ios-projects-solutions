@@ -58,7 +58,18 @@
     return result;
 }
 
+// handleButtonClick is invoked when the checkPalindromeButton is clicked. It
+// responds to a click by grabbing the input from the palindromeTextField,
+// checking whether it is a palindrome, and then updating the
+// validPalindromeLabel accordingly.
 - (IBAction)handleButtonClick:(id)sender {
+    BOOL isPalindrome = [self isPalindrome:self.palindromeTextField.text];
+    if (isPalindrome) {
+        self.validPalindromeLabel.text = @"Yep, it's a palindrome.";
+    }
+    else {
+        self.validPalindromeLabel.text = @"Nope, it's not a palindrome.";
+    }
 }
 
 @end
