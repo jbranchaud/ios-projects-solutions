@@ -9,6 +9,7 @@
 #import "JDBReverseStringViewController.h"
 
 @interface JDBReverseStringViewController ()
+
 @property (weak, nonatomic) IBOutlet UITextField *originalStringTextField;
 @property (weak, nonatomic) IBOutlet UIButton *reverseButton;
 @property (weak, nonatomic) IBOutlet UILabel *reversedStringLabel;
@@ -48,5 +49,17 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)handleButtonClick:(id)sender {
+    NSString *originalString = self.originalStringTextField.text;
+    //const char *originalCString = [self.originalStringTextField.text UTF8String];
+    // NSString *reverseString = [[NSString alloc] initWithString:originalString];
+    NSMutableString *reverseString = [NSMutableString stringWithString:@""];
+    for (int i = originalString.length-1; i >= 0; i--) {
+        unichar currentCharacter = [originalString characterAtIndex:i];
+        [reverseString appendString:[NSString stringWithCharacters:&currentCharacter length:1]];
+    }
+    self.reversedStringLabel.text = reverseString;
+}
 
 @end
