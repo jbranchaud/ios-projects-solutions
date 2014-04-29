@@ -16,27 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter text to check for palindrome:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhR-D9-bV5">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter text to check for palindrome:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhR-D9-bV5">
                                 <rect key="frame" x="20" y="66" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ctf-7y-WKf">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ctf-7y-WKf">
                                 <rect key="frame" x="20" y="95" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPO-d1-V1u">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPO-d1-V1u">
                                 <rect key="frame" x="20" y="133" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="check palindrome">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is the input text a palindrome?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgc-sl-hVe">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is the input text a palindrome?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgc-sl-hVe">
                                 <rect key="frame" x="20" y="185" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -48,7 +48,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gL-dh-FEz">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gL-dh-FEz">
                                 <rect key="frame" x="20" y="214" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -56,6 +56,23 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GhR-D9-bV5" firstAttribute="leading" secondItem="ci9-gB-p7f" secondAttribute="leading" constant="20" id="0rb-gz-Arf"/>
+                            <constraint firstItem="7gL-dh-FEz" firstAttribute="leading" secondItem="ci9-gB-p7f" secondAttribute="leading" constant="20" id="5HI-5Q-eVA"/>
+                            <constraint firstItem="7gL-dh-FEz" firstAttribute="top" secondItem="Wgc-sl-hVe" secondAttribute="bottom" constant="8" id="AQ8-k8-HKR"/>
+                            <constraint firstAttribute="trailing" secondItem="7gL-dh-FEz" secondAttribute="trailing" constant="20" id="Kc3-Ab-LNP"/>
+                            <constraint firstItem="gPO-d1-V1u" firstAttribute="leading" secondItem="ci9-gB-p7f" secondAttribute="leading" constant="20" id="MVy-Aw-gRh"/>
+                            <constraint firstAttribute="trailing" secondItem="gPO-d1-V1u" secondAttribute="trailing" constant="20" id="PSW-0u-Uyf"/>
+                            <constraint firstItem="gPO-d1-V1u" firstAttribute="top" secondItem="Ctf-7y-WKf" secondAttribute="bottom" constant="8" id="YWi-sg-Wwn"/>
+                            <constraint firstItem="Wgc-sl-hVe" firstAttribute="leading" secondItem="ci9-gB-p7f" secondAttribute="leading" constant="20" id="Ysr-dZ-duf"/>
+                            <constraint firstAttribute="trailing" secondItem="Wgc-sl-hVe" secondAttribute="trailing" constant="20" id="hlq-7F-R9h"/>
+                            <constraint firstItem="Ctf-7y-WKf" firstAttribute="top" secondItem="GhR-D9-bV5" secondAttribute="bottom" constant="8" id="pAu-GL-Xvm"/>
+                            <constraint firstAttribute="trailing" secondItem="Ctf-7y-WKf" secondAttribute="trailing" constant="20" id="q9e-9l-dM5"/>
+                            <constraint firstItem="GhR-D9-bV5" firstAttribute="top" secondItem="nFo-db-QqI" secondAttribute="bottom" constant="46" id="qsK-XB-Pkt"/>
+                            <constraint firstItem="Wgc-sl-hVe" firstAttribute="top" secondItem="gPO-d1-V1u" secondAttribute="bottom" constant="22" id="xOT-yT-ilw"/>
+                            <constraint firstItem="Ctf-7y-WKf" firstAttribute="leading" secondItem="ci9-gB-p7f" secondAttribute="leading" constant="20" id="yMo-ui-wWj"/>
+                            <constraint firstAttribute="trailing" secondItem="GhR-D9-bV5" secondAttribute="trailing" constant="20" id="zzf-dG-YZn"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fIC-Ru-cyu" userLabel="First Responder" sceneMemberID="firstResponder"/>
