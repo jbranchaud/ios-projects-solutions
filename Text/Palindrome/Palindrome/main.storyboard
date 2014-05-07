@@ -127,6 +127,9 @@
                     </view>
                     <connections>
                         <outlet property="checkPalindromeButton" destination="gPO-d1-V1u" id="P6K-4U-cLB"/>
+                        <outlet property="ignoreCapitalizationSwitch" destination="gXc-U7-bhC" id="pah-zO-rlB"/>
+                        <outlet property="ignoreSpecialCharactersSwitch" destination="0Dc-6c-R6c" id="52F-e2-D4H"/>
+                        <outlet property="ignoreWhitespaceSwitch" destination="y4C-zE-Hot" id="Azc-r4-lLO"/>
                         <outlet property="palindromeTextField" destination="Ctf-7y-WKf" id="PwL-43-hUx"/>
                         <outlet property="validPalindromeLabel" destination="7gL-dh-FEz" id="Lvd-lU-0St"/>
                     </connections>

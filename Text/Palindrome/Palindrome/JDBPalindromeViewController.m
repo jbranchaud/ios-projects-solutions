@@ -13,6 +13,9 @@
 @property (weak, nonatomic) IBOutlet UITextField *palindromeTextField;
 @property (weak, nonatomic) IBOutlet UIButton *checkPalindromeButton;
 @property (weak, nonatomic) IBOutlet UILabel *validPalindromeLabel;
+@property (weak, nonatomic) IBOutlet UISwitch *ignoreCapitalizationSwitch;
+@property (weak, nonatomic) IBOutlet UISwitch *ignoreWhitespaceSwitch;
+@property (weak, nonatomic) IBOutlet UISwitch *ignoreSpecialCharactersSwitch;
 
 @end
 
