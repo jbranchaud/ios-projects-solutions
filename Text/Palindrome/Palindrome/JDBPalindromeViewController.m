@@ -55,6 +55,9 @@
     if (self.ignoreCapitalizationSwitch.isOn) {
         checkString = [checkString lowercaseString];
     }
+    if (self.ignoreWhitespaceSwitch.isOn) {
+        checkString = [self removeWhitespace:checkString];
+    }
     
     int stringLength = checkString.length;
     // if it is an empty string, it is vacuously a palindrome, return true
@@ -72,6 +75,13 @@
         }
     }
     return result;
+}
+
+- (NSString *)removeWhitespace:(NSString *)string {
+    // Thanks --> http://stackoverflow.com/questions/7628470/remove-all-whitespace-from-nsstring
+    NSArray *words = [string componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+    NSString *noWhitespaceString = [words componentsJoinedByString:@""];
+    return noWhitespaceString;
 }
 
 // handleButtonClick is invoked when the checkPalindromeButton is clicked. It
