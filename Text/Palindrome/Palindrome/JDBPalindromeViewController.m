@@ -58,6 +58,9 @@
     if (self.ignoreWhitespaceSwitch.isOn) {
         checkString = [self removeWhitespace:checkString];
     }
+    if (self.ignoreSpecialCharactersSwitch.isOn) {
+        checkString = [self removeSpecialCharacters:checkString];
+    }
     
     int stringLength = checkString.length;
     // if it is an empty string, it is vacuously a palindrome, return true
@@ -77,11 +80,18 @@
     return result;
 }
 
+// remove any whitespace that is within a string (not just spaces)
 - (NSString *)removeWhitespace:(NSString *)string {
     // Thanks --> http://stackoverflow.com/questions/7628470/remove-all-whitespace-from-nsstring
     NSArray *words = [string componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
     NSString *noWhitespaceString = [words componentsJoinedByString:@""];
     return noWhitespaceString;
+}
+
+- (NSString *)removeSpecialCharacters:(NSString *)string {
+    NSArray *words = [string componentsSeparatedByCharactersInSet:[[NSCharacterSet alphanumericCharacterSet] invertedSet]];
+    NSString *noSpecialCharacterString = [words componentsJoinedByString:@""];
+    return noSpecialCharacterString;
 }
 
 // handleButtonClick is invoked when the checkPalindromeButton is clicked. It
