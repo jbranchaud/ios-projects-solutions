@@ -27,7 +27,10 @@
                                 <rect key="frame" x="20" y="95" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="bbv-gq-y0p" id="Yvv-Fp-5so"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPO-d1-V1u">
                                 <rect key="frame" x="20" y="133" width="280" height="30"/>
@@ -132,6 +135,7 @@
                         <outlet property="ignoreWhitespaceSwitch" destination="y4C-zE-Hot" id="Azc-r4-lLO"/>
                         <outlet property="palindromeTextField" destination="Ctf-7y-WKf" id="PwL-43-hUx"/>
                         <outlet property="validPalindromeLabel" destination="7gL-dh-FEz" id="Lvd-lU-0St"/>
+                        <outlet property="view" destination="ci9-gB-p7f" id="92H-cy-HMb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fIC-Ru-cyu" userLabel="First Responder" sceneMemberID="firstResponder"/>

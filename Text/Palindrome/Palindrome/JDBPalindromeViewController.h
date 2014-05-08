@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JDBPalindromeViewController : UIViewController
+@interface JDBPalindromeViewController : UIViewController <UITextFieldDelegate>
 
 - (BOOL)isPalindrome:(NSString *)string;
 
