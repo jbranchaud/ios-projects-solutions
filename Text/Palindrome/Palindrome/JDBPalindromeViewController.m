@@ -48,15 +48,24 @@
  * palindrome, false otherwise.
  */
 - (BOOL)isPalindrome:(NSString *)string {
-    int stringLength = string.length;
+    NSString *checkString = string;
+    NSLog(@"Check String: %@", checkString);
+    
+    // check the switches and update the string accordingly
+    if (self.ignoreCapitalizationSwitch.isOn) {
+        checkString = [checkString lowercaseString];
+    }
+    
+    int stringLength = checkString.length;
     // if it is an empty string, it is vacuously a palindrome, return true
     if (stringLength == 0) {
         return true;
     }
+    
     BOOL result = true;
     for (int i = 0; i < stringLength / 2 + 1; i++) {
-        unichar leftChar = [string characterAtIndex:i];
-        unichar rightChar = [string characterAtIndex:stringLength - i - 1];
+        unichar leftChar = [checkString characterAtIndex:i];
+        unichar rightChar = [checkString characterAtIndex:stringLength - i - 1];
         if (leftChar != rightChar) {
             result = false;
             break;
