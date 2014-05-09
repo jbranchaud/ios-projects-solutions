@@ -7,15 +7,20 @@
 //
 
 #import "JDBAppDelegate.h"
+#import "JDBMainViewController.h"
 
 @implementation JDBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // init an instance of the main view controller
+    JDBMainViewController *mainViewController = [[JDBMainViewController alloc] init];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    [self.window setRootViewController:mainViewController];
     return YES;
 }
 

@@ -19,6 +19,7 @@
 		0C12DF4C191CFB6900631DC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C12DF34191CFB6900631DC5 /* UIKit.framework */; };
 		0C12DF54191CFB6900631DC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C12DF52191CFB6900631DC5 /* InfoPlist.strings */; };
 		0C12DF56191CFB6900631DC5 /* RandomBackgroundColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12DF55191CFB6900631DC5 /* RandomBackgroundColorTests.m */; };
+		0C12DF61191CFD0800631DC5 /* JDBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12DF60191CFD0800631DC5 /* JDBMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		0C12DF51191CFB6900631DC5 /* RandomBackgroundColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandomBackgroundColorTests-Info.plist"; sourceTree = "<group>"; };
 		0C12DF53191CFB6900631DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C12DF55191CFB6900631DC5 /* RandomBackgroundColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomBackgroundColorTests.m; sourceTree = "<group>"; };
+		0C12DF5F191CFD0800631DC5 /* JDBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBMainViewController.h; sourceTree = "<group>"; };
+		0C12DF60191CFD0800631DC5 /* JDBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				0C12DF40191CFB6900631DC5 /* JDBAppDelegate.m */,
 				0C12DF42191CFB6900631DC5 /* Images.xcassets */,
 				0C12DF37191CFB6900631DC5 /* Supporting Files */,
+				0C12DF5F191CFD0800631DC5 /* JDBMainViewController.h */,
+				0C12DF60191CFD0800631DC5 /* JDBMainViewController.m */,
 			);
 			path = RandomBackgroundColor;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C12DF3D191CFB6900631DC5 /* main.m in Sources */,
+				0C12DF61191CFD0800631DC5 /* JDBMainViewController.m in Sources */,
 				0C12DF41191CFB6900631DC5 /* JDBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
