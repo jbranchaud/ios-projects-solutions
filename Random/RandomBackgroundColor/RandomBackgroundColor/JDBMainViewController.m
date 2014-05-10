@@ -7,6 +7,7 @@
 //
 
 #import "JDBMainViewController.h"
+#import "JDBMainView.h"
 
 @interface JDBMainViewController ()
 
@@ -28,7 +29,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSLog(@"The view has been loaded, about the color background");
+    JDBMainView *mainView = [[JDBMainView alloc] init];
+    self.view = mainView;
     self.view.window.backgroundColor = [self generateRandomColor];
+    self.view.userInteractionEnabled = true;
 }
 
 - (void)didReceiveMemoryWarning
