@@ -10,4 +10,6 @@
 
 @interface JDBMainView : UIView
 
+- (void)setRandomBackgroundColor;
+
 @end

@@ -19,10 +19,7 @@
     
     // init an instance of the main view controller
     JDBMainViewController *mainViewController = [[JDBMainViewController alloc] init];
-    NSLog(@"About to add the view controller to the window");
     [self.window setRootViewController:mainViewController];
-    [mainViewController setRandomBackgroundColor];
-    NSLog(@"View controller has been added to the window");
     return YES;
 }
 

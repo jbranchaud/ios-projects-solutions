@@ -10,6 +10,4 @@
 
 @interface JDBMainViewController : UIViewController
 
-- (void)setRandomBackgroundColor;
-
 @end
