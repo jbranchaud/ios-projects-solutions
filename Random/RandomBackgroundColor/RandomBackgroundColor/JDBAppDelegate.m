@@ -13,13 +13,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // init an instance of the main view controller
-    JDBMainViewController *mainViewController = [[JDBMainViewController alloc] init];
-    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
+    
+    // init an instance of the main view controller
+    JDBMainViewController *mainViewController = [[JDBMainViewController alloc] init];
+    NSLog(@"About to add the view controller to the window");
     [self.window setRootViewController:mainViewController];
+    [mainViewController setRandomBackgroundColor];
+    NSLog(@"View controller has been added to the window");
     return YES;
 }
 
