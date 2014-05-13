@@ -220,6 +220,8 @@
 
 - \* project ideas and descriptions by Karen Goel
 - † project ideas and descriptions by Josh Branchaud
+- a project title that is [linked]() has a solution, follow the link to see
+  the solution
 
 ---
 
