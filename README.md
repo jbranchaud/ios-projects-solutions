@@ -214,11 +214,12 @@
 
 ## Random
 
-**Random Background Color**\* - Give the background a random color and then change it randomly in response to a user event.
+**Random Background Color**\*\* - Give the background a random color and then change it randomly in response to a user event.
 
 ### Legend
 
-- \* project ideas and descriptions by Josh Branchaud
+- \* project ideas and descriptions by Karen Goel
+- \*\* project ideas and descriptions by Josh Branchaud
 
 ---
 
