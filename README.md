@@ -220,6 +220,7 @@
 
 - \* project ideas and descriptions by Karen Goel
 - † project ideas and descriptions by Josh Branchaud
+- ‡ project ideas from external resources, see project's README for source
 - a project title that is [linked]() has a solution, follow the link to see
   the solution
 
