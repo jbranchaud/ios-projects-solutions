@@ -218,7 +218,7 @@
 
 ### Legend
 
-- \* - project ideas and descriptions by Josh Branchaud
+- \* project ideas and descriptions by Josh Branchaud
 
 ---
 
