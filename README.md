@@ -218,3 +218,16 @@
 
 * [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
 * [Rosetta Code](http://rosettacode.org/)
+
+## License
+
+&copy; 2014 Josh Branchaud
+
+The original set of project descriptions in this repository were created by
+Karan Goel and are under the MIT License. See `Projects-LICENSE.md` for
+details.
+
+The solutions to these projects and additional project descriptions which
+comprise the main contents of this repository are
+created by Josh Branchaud and under a separate MIT license. See LICENSE for
+details.
