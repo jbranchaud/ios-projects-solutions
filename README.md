@@ -1,4 +1,4 @@
-# ios-projects
+# ios-projects-solutions
 
 ## Numbers
 
