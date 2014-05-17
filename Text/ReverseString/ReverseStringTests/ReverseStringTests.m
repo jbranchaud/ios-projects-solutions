@@ -30,20 +30,31 @@
 
 - (void)testReverseString
 {
+    
+}
+
+- (void)testReverseSimpleString
+{
     // try reversing a simple string
-    NSString *originalString1 = @"race car";
-    NSString *reversedString1 = @"rac ecar";
-    XCTAssertEqualObjects(reversedString1, [JDBReverseStringHelper reverseString:originalString1], @"Reversed string should match.");
-    
+    NSString *originalString = @"race car";
+    NSString *reversedString = @"rac ecar";
+    XCTAssertEqualObjects(reversedString, [JDBReverseStringHelper reverseString:originalString], @"Reversed string should match.");
+}
+
+- (void)testReverseSingleCharacterString
+{
     // try reversing a single character string
-    NSString *originalString2 = @"Z";
-    NSString *reversedString2 = @"Z";
-    XCTAssertEqualObjects(reversedString2, [JDBReverseStringHelper reverseString:originalString2], @"Reversed string should match.");
-    
+    NSString *originalString = @"Z";
+    NSString *reversedString = @"Z";
+    XCTAssertEqualObjects(reversedString, [JDBReverseStringHelper reverseString:originalString], @"Reversed string should match.");
+}
+
+- (void)testReverseEmptyString
+{
     // try reversing an empty string
-    NSString *originalString3 = @"";
-    NSString *reversedString3 = @"";
-    XCTAssertEqualObjects(reversedString3, [JDBReverseStringHelper reverseString:originalString3], @"Reversed string should match.");
+    NSString *originalString = @"";
+    NSString *reversedString = @"";
+    XCTAssertEqualObjects(reversedString, [JDBReverseStringHelper reverseString:originalString], @"Reversed string should match.");
 }
 
 @end
