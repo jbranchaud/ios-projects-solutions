@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "JDBReverseStringViewController.h"
+#import "JDBReverseStringHelper.h"
 
 @interface ReverseStringTests : XCTestCase
 
@@ -29,10 +30,20 @@
 
 - (void)testReverseString
 {
-    NSString *originalString = @"race car";
-    NSString *reversedString = @"rac ecar";
-    JDBReverseStringViewController *rsvc = [JDBReverseStringViewController alloc];
-    XCTAssertEqualObjects(reversedString, [rsvc reverseString:originalString], @"Reversed string should match.");
+    // try reversing a simple string
+    NSString *originalString1 = @"race car";
+    NSString *reversedString1 = @"rac ecar";
+    XCTAssertEqualObjects(reversedString1, [JDBReverseStringHelper reverseString:originalString1], @"Reversed string should match.");
+    
+    // try reversing a single character string
+    NSString *originalString2 = @"Z";
+    NSString *reversedString2 = @"Z";
+    XCTAssertEqualObjects(reversedString2, [JDBReverseStringHelper reverseString:originalString2], @"Reversed string should match.");
+    
+    // try reversing an empty string
+    NSString *originalString3 = @"";
+    NSString *reversedString3 = @"";
+    XCTAssertEqualObjects(reversedString3, [JDBReverseStringHelper reverseString:originalString3], @"Reversed string should match.");
 }
 
 @end
