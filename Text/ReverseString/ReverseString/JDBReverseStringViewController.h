@@ -10,4 +10,8 @@
 
 @interface JDBReverseStringViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *originalStringTextField;
+@property (weak, nonatomic) IBOutlet UIButton *reverseButton;
+@property (weak, nonatomic) IBOutlet UILabel *reversedStringLabel;
+
 @end
