@@ -30,7 +30,13 @@
 
 - (void)testReverseString
 {
-    
+    // initialize the main view controller and reverse the string with it
+    NSString *originalString = @"race car driver";
+    NSString *reversedString = @"revird rac ecar";
+    JDBReverseStringViewController *rsvc = [[JDBReverseStringViewController alloc] init];
+    rsvc.originalStringTextField.text = originalString;
+    [rsvc.reverseButton sendActionsForControlEvents:UIControlEventTouchUpInside];
+    XCTAssertEqual(rsvc.reversedStringLabel.text, reversedString, @"Reversed string should match.");
 }
 
 - (void)testReverseSimpleString
