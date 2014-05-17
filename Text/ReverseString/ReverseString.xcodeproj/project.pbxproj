@@ -21,6 +21,7 @@
 		0C770090190F04B0003EC41F /* ReverseStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77008F190F04B0003EC41F /* ReverseStringTests.m */; };
 		0C77009A190F0BDB003EC41F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C770099190F0BDB003EC41F /* Storyboard.storyboard */; };
 		0C77009D190F1AFD003EC41F /* JDBReverseStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77009C190F1AFD003EC41F /* JDBReverseStringViewController.m */; };
+		0CA68BDD1927854500FC23AE /* JDBReverseStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA68BDC1927854500FC23AE /* JDBReverseStringHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0C770099190F0BDB003EC41F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		0C77009B190F1AFD003EC41F /* JDBReverseStringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBReverseStringViewController.h; sourceTree = "<group>"; };
 		0C77009C190F1AFD003EC41F /* JDBReverseStringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBReverseStringViewController.m; sourceTree = "<group>"; };
+		0CA68BDB1927854500FC23AE /* JDBReverseStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBReverseStringHelper.h; sourceTree = "<group>"; };
+		0CA68BDC1927854500FC23AE /* JDBReverseStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBReverseStringHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				0C770099190F0BDB003EC41F /* Storyboard.storyboard */,
 				0C77009B190F1AFD003EC41F /* JDBReverseStringViewController.h */,
 				0C77009C190F1AFD003EC41F /* JDBReverseStringViewController.m */,
+				0CA68BDB1927854500FC23AE /* JDBReverseStringHelper.h */,
+				0CA68BDC1927854500FC23AE /* JDBReverseStringHelper.m */,
 				0C77007C190F04B0003EC41F /* Images.xcassets */,
 				0C770071190F04B0003EC41F /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				0C77009D190F1AFD003EC41F /* JDBReverseStringViewController.m in Sources */,
 				0C770077190F04B0003EC41F /* main.m in Sources */,
+				0CA68BDD1927854500FC23AE /* JDBReverseStringHelper.m in Sources */,
 				0C77007B190F04B0003EC41F /* JDBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +454,7 @@
 				0C770095190F04B0003EC41F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C770096190F04B0003EC41F /* Build configuration list for PBXNativeTarget "ReverseStringTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +463,7 @@
 				0C770098190F04B0003EC41F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

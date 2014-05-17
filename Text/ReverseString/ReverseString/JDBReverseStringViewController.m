@@ -7,6 +7,7 @@
 //
 
 #import "JDBReverseStringViewController.h"
+#import "JDBReverseStringHelper.h"
 
 @interface JDBReverseStringViewController ()
 
@@ -39,18 +40,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (NSString *)reverseString:(NSString *)originalString {
-    NSMutableString *reversedString = [NSMutableString stringWithString:@""];
-    for (int i = originalString.length-1; i >= 0; i--) {
-        unichar currentCharacter = [originalString characterAtIndex:i];
-        [reversedString appendString:[NSString stringWithCharacters:&currentCharacter length:1]];
-    }
-    return reversedString;
-}
-
 - (IBAction)handleButtonClick:(id)sender {
     NSString *originalString = self.originalStringTextField.text;
-    self.reversedStringLabel.text = [self reverseString:originalString];
+    self.reversedStringLabel.text = [JDBReverseStringHelper reverseString:originalString];
 }
 
 @end
