@@ -20,6 +20,7 @@
 		0CA68C0E1929358900FC23AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CA68C0C1929358900FC23AE /* InfoPlist.strings */; };
 		0CA68C101929358900FC23AE /* WordCountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA68C0F1929358900FC23AE /* WordCountTests.m */; };
 		0CA68C1A192936A500FC23AE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA68C19192936A500FC23AE /* Storyboard.storyboard */; };
+		0CA68C1D19293AE000FC23AE /* JDBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA68C1C19293AE000FC23AE /* JDBMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		0CA68C0D1929358900FC23AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0CA68C0F1929358900FC23AE /* WordCountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordCountTests.m; sourceTree = "<group>"; };
 		0CA68C19192936A500FC23AE /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0CA68C1B19293AE000FC23AE /* JDBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBMainViewController.h; sourceTree = "<group>"; };
+		0CA68C1C19293AE000FC23AE /* JDBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				0CA68BFC1929358900FC23AE /* Images.xcassets */,
 				0CA68BF11929358900FC23AE /* Supporting Files */,
 				0CA68C19192936A500FC23AE /* Storyboard.storyboard */,
+				0CA68C1B19293AE000FC23AE /* JDBMainViewController.h */,
+				0CA68C1C19293AE000FC23AE /* JDBMainViewController.m */,
 			);
 			path = WordCount;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CA68BF71929358900FC23AE /* main.m in Sources */,
+				0CA68C1D19293AE000FC23AE /* JDBMainViewController.m in Sources */,
 				0CA68BFB1929358900FC23AE /* JDBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
