@@ -40,6 +40,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="countWordsButton" destination="Xix-jR-RSl" id="rbM-iJ-d4i"/>
+                        <outlet property="inputTextView" destination="i6B-QU-ghL" id="DLj-JY-1tB"/>
+                        <outlet property="wordCountLabel" destination="wkY-8v-nlg" id="Tia-1g-xId"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JEo-fv-gl9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

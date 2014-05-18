@@ -10,4 +10,8 @@
 
 @interface JDBMainViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *inputTextView;
+@property (weak, nonatomic) IBOutlet UIButton *countWordsButton;
+@property (weak, nonatomic) IBOutlet UILabel *wordCountLabel;
+
 @end
